@@ -7,11 +7,11 @@ teams = [
 
 teamCounter = 1
 
-def printTeam(teams):
-    for team in teams:
-        print(f'{teams[{team}]}')
+def printTeam(team):
+    for member in team:
+        print(f'{member}')
 
-# for teamnum in range(3):
-#     print(f'Team #{teamCounter}')
-#     printTeam(teams(teamnum))
-#     teamCounter += 1
+for teamnum in range(3):
+    print(f'Team #{teamCounter}')
+    printTeam(teams(teamnum))
+    teamCounter += 1

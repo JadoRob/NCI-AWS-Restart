@@ -1,7 +1,7 @@
 import os
 import math
 from os import system
-from Programming.calculate import calculateGallonPrice, displayGallonsNeeded, caclulateWallArea
+from Programming.Exercises.calculate import calculateGallonPrice, displayGallonsNeeded, caclulateWallArea
 
 #Ask user for the length width and height
 length=int(input('Please enter the length of the room: '))
